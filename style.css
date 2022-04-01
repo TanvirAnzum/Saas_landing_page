@@ -1,5 +1,214 @@
 *{
-    /* margin: 0; */
+    margin: 0;
     font-family: 'IBM Plex Sans Arabic', sans-serif;
     font-family: 'Roboto', sans-serif;
+    background-color: rgb(241,245,255);
+}
+
+.header-area {
+    
+
+}
+
+.header-title {
+    display: grid;
+    height: 100px;
+    grid-template-columns: 1fr 3fr 1fr;
+    align-items: center;
+    justify-items: center;
+    font-size: 14px;
+}
+
+.nav-item {
+    display: inline-block;
+    padding-inline: 10px;
+}
+
+.sign-in-link {
+    padding-right: 30px;
+    text-decoration: none;
+    color: black;
+}
+
+.sign-up-btn {
+    width: 137px;
+    height: 52px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(79,70,186);
+    color: azure;
+}
+
+.header-content {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items:center;
+    height: 700px;
+}
+
+.header-headline {
+    height: 400px;
+    width:600px;
+}
+
+.headline-title {
+    font-size: 60px;
+}
+
+.headline-para {
+    padding-top:20px;
+    font-size:20px;
+    height: 90px;
+    width: 460px;
+}
+
+.btn-position {
+    padding-top: 20px;
+}
+
+
+.process-btn {
+    border-radius: 40px;
+    width: 162px;
+    height: 60px;
+    font-size: 16px;
+    background-color: rgb(55,52,169);
+    border: none;
+    color:azure;
+}
+
+.headline-link {
+    padding-left:20px;
+    font-size: 17px;
+    text-decoration: none;
+    padding-left: 40px; 
+}
+
+i {
+    vertical-align: middle;
+    color: rgb(34,212,151)
+}
+
+.header-forms {
+    width: 356px;
+    height: 280px;
+}
+
+.form-title{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    padding-bottom: 20px;
+    text-align: left;
+    color: rgb(79,70,186);
+}
+
+#email {
+    width: 356px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #DFE4F1;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size:  20px;
+    text-indent: 15px;
+}
+
+#password {
+    width: 356px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #DFE4F1;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 20px;
+    text-indent: 15px;
+}
+
+.submit-btn {
+    width: 356px;
+    height: 50px;
+    background: rgb(255,127,92);
+    border: 1px solid #DFE4F1;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+    color:azure;
+}
+
+/* header area completes */
+
+/* companies area starts*/
+
+.companies-area {
+    height: 100px;
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    justify-items: center;
+}
+
+.companies {
+    height: 95px;
+    width: 1000px;
+}
+
+.companies-title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.companies-logo-area {
+    text-align: center;
+    padding-top: 25px;
+}
+
+.company-logo {
+    padding-inline: 25px;
+}
+
+.about-area {
+    display: grid;
+    height: 200px;
+    grid-template-columns: auto;
+    align-items: center;
+    justify-items: center;
+}
+
+.about-elements {
+    width: 800px;
+    height: 200px;
+    padding-top: 50px;
+}
+
+.about-header {
+    font-size: 45px;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+.about-para {
+    width: 600px;
+    padding-top:20px;
+    padding-left: 100px;
+    padding-right:100px;
+    font-size: 20px;
+    font-weight: 500;
+    padding-bottom: 20px;
+}
+
+.about-btn {
+    width: 500px;
+    height: 45px;
+    border-radius: 10px;;
+    position: relative;
+    left: 125px;
+    font-size: 17px;
+    text-align: center;
+    background-color: rgb(55,52,169);
+    border: 0px;
+    color: azure;
 }

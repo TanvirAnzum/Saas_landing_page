@@ -5,11 +5,6 @@
     background-color: rgb(248,249,253)
 }
 
-.header-area {
-    
-
-}
-
 .header-title {
     display: grid;
     height: 100px;
@@ -85,7 +80,7 @@
     padding-left: 40px; 
 }
 
-i {
+.fa-circle-play {
     vertical-align: middle;
     color: rgb(34,212,151)
 }
@@ -627,4 +622,399 @@ i {
 
 .stat-para {
     display: inline;
+}
+
+/* testimonial area starts */
+
+.testimonial-area {
+    width: 90%;
+    height: 650px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.testimonial {
+    height: 650px;
+    display: grid;
+    grid-template-rows: 120px 450px auto;
+}
+
+.testimonial-content {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    justify-content: center;
+    align-content: center;
+}
+
+.testimonial-mini-title {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #4b48b2;
+    padding-bottom: 5px;
+}
+
+.testimonial-big-title {
+    width: 324px;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.testimonial-img {
+    position: relative;
+    align-self: start;
+}
+
+#segment {
+    position: relative;
+    right: 620px;
+    bottom: 40px;
+    background-color: rgb(79,70,186);
+}
+
+#invert {
+    position:relative;
+    right:180px;
+    bottom:180px;
+}
+
+/* for rounded shaped image */
+
+.round {
+    border-radius: 50%;
+}
+
+.testimonial-img-caption {
+    align-self: start;
+}
+
+.ti-caption-icon {
+    padding-bottom: 10px;
+}
+
+.ti-caption-title {
+    font-size: 20px;
+    font-weight: 800;
+    width: 297.5px;
+    line-height: 30px;
+    padding-bottom: 10px;
+}
+
+.ti-caption-para {
+    font-size: 16px;
+    font-weight: medium;
+    color: #757095;
+    line-height: 24px;
+    width: 455px;
+    padding-bottom: 20px;
+}
+
+.ti-caption-star {
+    color: rgb(249,137,107);
+    padding-bottom: 5px;
+}
+
+.ti-caption-name {
+    padding-bottom: 5px;
+}
+
+.fa-circle-arrow-left {
+    padding-right: 10px;
+    color: #4b48b2;
+}
+
+.fa-circle-arrow-right {
+    color:#757095;
+}
+
+
+/* blog area starts */
+
+.blog-area {
+    height: 650px;
+    width:90%;
+    padding-left:5%;
+    padding-right:5%;
+}
+
+.blog{
+    width:100%;
+    display: grid;
+    grid-template-rows: 100px auto;
+}
+
+.blog-container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.blog-title {
+    height: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: start;
+    align-items: center;
+}
+
+.blg-title {
+    font-size: 42px;
+    line-height: 50px;
+    font-weight: 800;
+}
+
+.blog-btn {
+    justify-self: end;
+    width: 250px;
+}
+
+.blog-col {
+    align-self: start;
+    justify-self: start;
+}
+
+figcaption {
+    padding-top: 2px;
+    padding-bottom:2px;
+    font-size: 16px;
+    line-height: 30px;
+    color: #64607D;
+}
+
+.blog-col-title {
+    padding-bottom:5px;
+    width: 378px;
+    font-size: 20px;
+    line-height: 36px;
+    font-weight: 800;
+}
+
+.blog-col-para {
+    padding-bottom:5px;
+    width: 378px;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 500;
+}
+
+.blog-img-item {
+    height: 100px;
+    display: grid;
+    grid-template-columns: 140px auto;
+}
+
+.blog-img-item-title {
+    width: 300px;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 800;
+}
+
+.ending-cta-area {
+    width: 100%;
+    height: 450px;
+    background-color: #4b48b2;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.ending-cta {
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: start;
+    align-items: center;
+    background-color: #4b48b2;
+}
+
+.ecta-content {
+    height: 400px;
+    width: 480px;
+    display: grid;
+    grid-template-rows: 50px 230px 60px;
+    justify-items: center;
+    align-items: center;
+    background-color: #4b48b2;
+}
+.ecta-content-mini-title {
+    justify-self: start;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 700;
+    background-color: #4b48b2;
+    color: white;
+}
+
+.ecta-content-title {
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 800;
+    padding-bottom: 30px;
+    background-color: #4b48b2;
+    color: white;
+}
+
+.ecta-content-para {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 600;
+    background-color: #4b48b2;
+    color:white;
+}
+
+input {
+    width: 371px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #F2F3F4;
+    padding-left: 15px;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 20px;
+    color:white;
+    border: none;
+}
+
+.ecta-submit-btn {
+    width: 392px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgb(249,137,107);
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 700;
+    color:white;
+    border:none;
+}
+
+.ecta-form {
+    background-color: #4b48b2;
+    padding-left: 150px;
+}
+
+/* footer area starts */
+
+.footer-area {
+    height: 450px;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 300px auto;
+    justify-items: center;
+    align-items: center;
+}
+
+.footer-position {
+    width: 90%;
+    height: 200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 30px;
+    justify-items: center;
+    align-items: start;
+}
+
+.footer-copyright {
+    width: 80%;
+    text-align: center;
+}
+
+.fc-para {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    padding-top: 20px;
+    letter-spacing: -0.02em;
+}
+
+.fheader {
+    font-size: 21px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: -0.02em;
+    text-align: left;
+
+}
+
+.media-icon {
+    padding-top: 20px;
+    color: #3734A9;
+}
+
+.contact-area {
+    width: 250px;
+    justify-self: start;
+}
+
+.newsletter-area {
+    width: 300px;
+    justify-self: start;
+}
+
+.company-area {
+    justify-self: start;
+}
+.resources-area {
+    justify-self: start;
+}
+
+.flist {
+    padding-top: 10px;
+    list-style: none;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    padding-left: 0px;
+    
+}
+
+.f-link {
+    text-decoration: none;
+    color: #181433;
+}
+
+.fl-item {
+    padding-bottom: 10px ;
+}
+
+#newsletter-form {
+    padding-top: 10px;
+    display: flex;
+}
+
+
+#news-email {
+    width: 150px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    border-radius: 0px;
+    color:white;
+    margin: none;
+    border: none;
+}
+
+.subscribe-btn {
+    display: inline;
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color:white;
+    background-color: #3734a9;
+    border: none;
 }
